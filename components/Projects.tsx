@@ -4,6 +4,7 @@ import Ledger from "@/public/images/Ledger.jpeg";
 import SavorServe from "@/public/images/SavorServe.jpeg";
 import HomeAway from "@/public/images/Home-Away.jpeg";
 import WanderWave from "@/public/images/WanderWave.jpeg";
+import Inquiso from "@/public/images/Inquiso.jpeg";
 import Link from "next/link";
 
 const Projects = () => {
@@ -193,6 +194,53 @@ const Projects = () => {
             </div>
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               TypeScript
+            </div>
+          </div>
+        </div>
+        <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
+          <div className="overflow-hidden rounded-lg">
+            <Link href={"https://inquiso.onrender.com/"} target="_blank">
+              <Image
+                src={Inquiso}
+                alt="Inquiso"
+                className="rounded-lg hover:scale-105 transition-transform duration-500"
+              />
+            </Link>
+          </div>
+          <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
+            <div className="text-2xl font-bold font-inter">Inquiso</div>
+            <Link
+              href={"https://github.com/xKrishnaSaxena/Inquiso"}
+              target="_blank"
+            >
+              <FaGithub className="hover:scale-110 size-6" />
+            </Link>
+          </div>
+          <div className="px-3 text-neutral-400 italic">
+            {" "}
+            Inquiso is a dynamic platform that combines a Reddit-like tech forum
+            and real-time Q&A rooms to foster collaboration and knowledge
+            sharing. Users can explore and vote on categorized posts in dev,
+            devops, and web3, while the live Q&A rooms allow admins to manage
+            questions, respond in real-time, and enable participants to upvote
+            or ask new questions. Built with WebSockets for seamless real-time
+            interactions, Inquiso ensures a smooth and engaging experience.
+          </div>
+          <div className="flex flex-wrap gap-2 px-3 pt-4 text-xs lg:text-sm font-medium mb-2 items-center justify-start">
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Next.js
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Tailwind CSS
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Shadcn
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Socket.io
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Radix UI
             </div>
           </div>
         </div>

@@ -66,25 +66,24 @@ const Projects = () => {
 
         <Link
           className="bg-foreground border-neutral-600 border-2 rounded-xl p-4"
-          href={"https://github.com/xKrishnaSaxena/WanderWave-prod"}
+          href={"https://wanderwave-arfb.onrender.com/"}
           target="_blank"
         >
           <div className="overflow-hidden rounded-lg">
-            <Link
-              href={"https://wanderwave-arfb.onrender.com/"}
-              target="_blank"
-            >
-              <Image
-                src={WanderWave}
-                alt="WanderWave"
-                className="rounded-lg hover:scale-105 transition-transform duration-500"
-              />
-            </Link>
+            <Image
+              src={WanderWave}
+              alt="WanderWave"
+              className="rounded-lg hover:scale-105 transition-transform duration-500"
+            />
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter"> WanderWave</div>
-
-            <FaGithub className="hover:scale-110 size-6" />
+            <Link
+              href={"https://github.com/xKrishnaSaxena/WanderWave-prod"}
+              target="_blank"
+            >
+              <FaGithub className="hover:scale-110 size-6" />
+            </Link>
           </div>
           <div className="px-3 text-neutral-400 italic">
             {" "}
@@ -111,22 +110,24 @@ const Projects = () => {
 
         <Link
           className="bg-foreground border-neutral-600 border-2 rounded-xl p-4"
-          href={"https://github.com/xKrishnaSaxena/Home-Away"}
+          href={"https://home-away21.netlify.app/"}
           target="_blank"
         >
           <div className="overflow-hidden rounded-lg">
-            <Link href={"https://home-away21.netlify.app/"} target="_blank">
-              <Image
-                src={HomeAway}
-                alt="HomeAway"
-                className="rounded-lg hover:scale-105 transition-transform duration-500"
-              />
-            </Link>
+            <Image
+              src={HomeAway}
+              alt="HomeAway"
+              className="rounded-lg hover:scale-105 transition-transform duration-500"
+            />
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter">Home Away</div>
-
-            <FaGithub className="hover:scale-110 size-6" />
+            <Link
+              href={"https://github.com/xKrishnaSaxena/Home-Away"}
+              target="_blank"
+            >
+              <FaGithub className="hover:scale-110 size-6" />
+            </Link>
           </div>
           <div className="px-3 text-neutral-400 italic">
             {" "}

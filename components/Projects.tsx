@@ -14,18 +14,17 @@ const Projects = () => {
         Projects
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-        <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
+        <Link
+          className="bg-foreground border-neutral-600 border-2 rounded-xl p-4"
+          href={"https://savorserve.vercel.app/homepage/"}
+          target="_blank"
+        >
           <div className="overflow-hidden rounded-lg">
-            <Link
-              href={"https://savorserve.vercel.app/homepage/"}
-              target="_blank"
-            >
-              <Image
-                src={SavorServe}
-                alt="SavorServe"
-                className="rounded-lg hover:scale-105 transition-transform duration-500"
-              />
-            </Link>
+            <Image
+              src={SavorServe}
+              alt="SavorServe"
+              className="rounded-lg hover:scale-105 transition-transform duration-500"
+            />
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter">SavorServe</div>
@@ -63,9 +62,13 @@ const Projects = () => {
               Tailwind CSS
             </div>
           </div>
-        </div>
+        </Link>
 
-        <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
+        <Link
+          className="bg-foreground border-neutral-600 border-2 rounded-xl p-4"
+          href={"https://github.com/xKrishnaSaxena/WanderWave-prod"}
+          target="_blank"
+        >
           <div className="overflow-hidden rounded-lg">
             <Link
               href={"https://wanderwave-arfb.onrender.com/"}
@@ -80,12 +83,8 @@ const Projects = () => {
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter"> WanderWave</div>
-            <Link
-              href={"https://github.com/xKrishnaSaxena/WanderWave-prod"}
-              target="_blank"
-            >
-              <FaGithub className="hover:scale-110 size-6" />
-            </Link>
+
+            <FaGithub className="hover:scale-110 size-6" />
           </div>
           <div className="px-3 text-neutral-400 italic">
             {" "}
@@ -108,9 +107,13 @@ const Projects = () => {
               Tailwind CSS
             </div>
           </div>
-        </div>
+        </Link>
 
-        <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
+        <Link
+          className="bg-foreground border-neutral-600 border-2 rounded-xl p-4"
+          href={"https://github.com/xKrishnaSaxena/Home-Away"}
+          target="_blank"
+        >
           <div className="overflow-hidden rounded-lg">
             <Link href={"https://home-away21.netlify.app/"} target="_blank">
               <Image
@@ -122,12 +125,8 @@ const Projects = () => {
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter">Home Away</div>
-            <Link
-              href={"https://github.com/xKrishnaSaxena/Home-Away"}
-              target="_blank"
-            >
-              <FaGithub className="hover:scale-110 size-6" />
-            </Link>
+
+            <FaGithub className="hover:scale-110 size-6" />
           </div>
           <div className="px-3 text-neutral-400 italic">
             {" "}
@@ -149,19 +148,18 @@ const Projects = () => {
               Styled Components
             </div>
           </div>
-        </div>
-        <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
+        </Link>
+        <Link
+          className="bg-foreground border-neutral-600 border-2 rounded-xl p-4"
+          href={"https://ledger-wallet-six.vercel.app/"}
+          target="_blank"
+        >
           <div className="overflow-hidden rounded-lg">
-            <Link
-              href={"https://ledger-wallet-six.vercel.app/"}
-              target="_blank"
-            >
-              <Image
-                src={Ledger}
-                alt="Ledger"
-                className="rounded-lg hover:scale-105 transition-transform duration-500"
-              />
-            </Link>
+            <Image
+              src={Ledger}
+              alt="Ledger"
+              className="rounded-lg hover:scale-105 transition-transform duration-500"
+            />
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter">Ledger</div>
@@ -196,16 +194,19 @@ const Projects = () => {
               TypeScript
             </div>
           </div>
-        </div>
-        <div className="bg-foreground border-neutral-600 border-2 rounded-xl p-4">
+        </Link>
+
+        <Link
+          className="bg-foreground border-neutral-600 border-2 rounded-xl p-4"
+          href={"https://inquiso.onrender.com/"}
+          target="_blank"
+        >
           <div className="overflow-hidden rounded-lg">
-            <Link href={"https://inquiso.onrender.com/"} target="_blank">
-              <Image
-                src={Inquiso}
-                alt="Inquiso"
-                className="rounded-lg hover:scale-105 transition-transform duration-500"
-              />
-            </Link>
+            <Image
+              src={Inquiso}
+              alt="Inquiso"
+              className="rounded-lg hover:scale-105 transition-transform duration-500"
+            />
           </div>
           <div className="flex justify-between items-center gap-2 pt-4 pb-2 px-3">
             <div className="text-2xl font-bold font-inter">Inquiso</div>
@@ -243,7 +244,7 @@ const Projects = () => {
               Radix UI
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );
